@@ -1,0 +1,212 @@
+
+body {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    color: #2b2d42;
+    background-color: #f0f9ff;
+    font-size: 1.2em;
+}
+
+p {
+    margin: 0;
+    
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 4em;
+}
+h1, h2 {
+    color: #364f6b;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border:none;
+    border-top-style: dotted;
+    border-color: #364f6b;
+    border-width: 3px;
+    width: 10%;
+    padding-bottom: 20px;
+
+}
+
+.container{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+
+
+
+.intro-image {
+    max-width:40%;
+    max-height: 100px;
+}
+
+.first-cloud {
+    align-self: flex-start;
+}
+.end-cloud {
+    align-self: flex-end;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.nav-link {
+    padding: 20px;
+    
+}
+
+.intro {
+    flex-direction: column;
+    text-align: center;
+    max-width: 1200px;
+ 
+}
+
+
+.top-container {
+
+    flex-direction: row-reverse;
+   
+}
+
+.profile-description {
+    padding: 20px;
+    padding-top: 0;
+
+}
+
+.middle-container{
+    background-color: #ffffff;
+    flex-direction: column;
+    flex-wrap: wrap;
+} 
+
+.section {
+    display: flex;
+    padding-bottom: 20px;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.skills-list {
+    padding: 20px;
+}
+
+.bottom-container{
+    flex-direction: column;
+    flex-wrap: wrap;
+} 
+
+.projects-section {
+    flex-direction: row;
+    padding-bottom: 20px;
+    text-align: center;
+    flex-wrap: nowrap;
+    max-width: 1200px;
+
+}
+
+.project-image{
+    max-width: 80%;
+}
+
+.project {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.footer{
+    background-color: #c2f0fc;;
+    height: 200px;
+    
+}
+
+
+
+@media (max-width: 500px) {
+    .container {
+        padding: 10px;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .nav-container{
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section {
+        flex-direction: column;
+    }
+
+  
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .skills{
+        flex-direction: row;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .skills-list {
+        padding: 0px;
+        text-align: left;
+        align-items: center;
+    }
+
+    
+}
+
+@media (min-width:500px) and (max-width:700px){
+
+    .projects-section {
+        flex-flow: row wrap;
+    }
+
+    .project {
+        max-width: 50%;
+    }
+
+
+}
+
+@media (min-width:700px) {
+
+    h1 {
+        font-size: 6em;
+    }
+   .profile-description {
+       padding-left: 60px;
+       width: 400px;
+   }
+
+   .intro {
+       padding-top: 50px;
+       width: 600px;
+       flex-grow: 1;
+       padding-bottom: 50px;
+   }
+    
+}

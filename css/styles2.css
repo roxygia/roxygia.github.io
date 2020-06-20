@@ -1,0 +1,129 @@
+
+body {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    color: #2b2d42;
+    background-color: #f0f9ff;
+    font-size: 1.5em;
+
+}
+
+p {
+    margin: 0px;
+    font-size: 1.5em;
+    
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 2em;
+}
+h1, h2 {
+    color: #364f6b;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border:none;
+    border-top-style: dotted;
+    border-color: #364f6b;
+    border-width: 3px;
+    width: 10%;
+
+}
+
+.container{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.nav-link {
+    padding: 20px;
+}
+
+
+
+.top-container {
+
+    flex-direction: row-reverse;
+    background-color: #c2f0fc;
+    height: 400px;
+}
+
+
+.middle-container{
+    background-color: #ffffff;
+    flex-direction: column;
+    text-align: left;
+    
+} 
+
+.bottom-container{
+
+    height: 300px;
+   
+
+} 
+
+.footer{
+    background-color: #c2f0fc;;
+    height: 200px;
+    
+}
+
+.project-image{
+    max-width: 20%;
+    
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .nav-container{
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+  
+    h1 {
+        font-size: 2.5em;
+    }
+
+
+    
+}
+
+@media (min-width:700px) {
+
+    h1 {
+        font-size: 3em;
+    }
+
+  
+    
+}
