@@ -40,6 +40,12 @@ hr {
 
 }
 
+td {
+    width: 12vw;
+    max-width: 160px;
+
+}
+
 
 
 .container{
@@ -108,6 +114,11 @@ hr {
 
 }
 
+.profile-image {
+    width: 40%;
+    max-width: 400px;
+}
+
 .middle-container{
     background-color: #ffffff;
     flex-direction: column;
@@ -116,13 +127,11 @@ hr {
 
 .section {
     display: flex;
-    padding-bottom: 20px;
     text-align: left;
     flex-wrap: wrap;
 }
 
 .skills-list {
-    padding: 20px;
     text-align: justify;
 }
 
@@ -142,6 +151,8 @@ hr {
 
 .project-image{
     max-width: 80%;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
 .project {
@@ -149,6 +160,11 @@ hr {
     flex-flow: column nowrap;
     align-items: center;
 }
+
+.project:hover {
+    opacity: 0.5;
+  }
+  
 
 .footer{
     background-color: #c2f0fc;;
@@ -189,6 +205,10 @@ hr {
         align-items: center;
     }
 
+    .profile-image {
+        width: 90%;
+    }
+
     
 }
 
@@ -200,6 +220,14 @@ hr {
 
     .project {
         max-width: 50%;
+    }
+
+    .top-container {
+        align-items: flex-start;
+    }
+
+    .profile-description {
+        padding-top: 0px;
     }
 
 
