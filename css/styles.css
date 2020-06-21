@@ -110,13 +110,14 @@ td {
 
 .profile-description {
     padding: 20px;
-    text-align: justify;
+    text-align: center;
 
 }
 
 .profile-image {
     width: 40%;
     max-width: 400px;
+    object-fit: cover;
 }
 
 .middle-container{
