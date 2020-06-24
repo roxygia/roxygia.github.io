@@ -5,16 +5,21 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>Roxana Gianazza</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/topnav.css">
     <link rel="icon" href="images/R-favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat:wght@300&family=Sacramento&display=swap');
     </style>
 </head>
 <body>
-    <div class="nav-container">
-        <a class="nav-link" href="index.html">About</a>
-        <a class="nav-link" href="contact-me.html">Contact Me</a>
+    <div class="topnav" id="main-navigation">
+        <a class="active" href="index.html">About</a>
+        <a href="contact-me.html">Contact Me</a>
+        <a href="javascript:void(0);" class="icon" onclick="responsiveNavigation()">
+          <i class="fa fa-bars"></i>
+        </a>
     </div>
     
 
@@ -94,6 +99,6 @@
 
     </div>
 
-
+    <script src="script/script.js"></script>
 </body>
 </html>
